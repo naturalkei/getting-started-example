@@ -1,9 +1,10 @@
 {
-  "name": "header",
+  "name": "@workspace/header",
   "version": "0.0.0",
   "main": "dist/index.js",
   "scripts": {
     "build": "rimraf dist && rollup --config",
+    "dev": "rimraf dist && rollup -w --config",
     "test": "jest"
   },
   "dependencies": {

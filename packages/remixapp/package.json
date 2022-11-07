@@ -1,5 +1,5 @@
 {
-  "name": "remixapp",
+  "name": "@workspace/remixapp",
   "private": true,
   "sideEffects": false,
   "scripts": {
@@ -14,8 +14,8 @@
     "@remix-run/serve": "^1.5.1",
     "react": "18.1.0",
     "react-dom": "18.1.0",
-    "header": "*",
-    "footer": "*"
+    "@workspace/header": "*",
+    "@workspace/footer": "*"
   },
   "devDependencies": {
     "@remix-run/dev": "^1.5.1",
